@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #eee;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 คอลัมน์ */
+    gap: 10px;
+}
+
+.content {
+    background: gold;
+    padding: 20px;
+    border: 3px solid black;
+}
